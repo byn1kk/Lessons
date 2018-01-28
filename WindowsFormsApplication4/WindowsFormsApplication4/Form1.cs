@@ -15,7 +15,7 @@ namespace WindowsFormsApplication4
         {
             label1.Text = clickCount++.ToString();
             if (clickCount % 2 == 0)
-                BackColor = Color.Blue;
+                BackColor = Color.Yellow;
             else
                 BackColor = Color.Red;
 
